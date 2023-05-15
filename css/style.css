@@ -86,6 +86,7 @@ The element will be visually hidden but will still be read by screen reader tech
 
 body {
     display: flex;
+    background-color: hsl(204, 43%, 93%);
 }
 
 main {
@@ -94,4 +95,28 @@ main {
     justify-content: center;
     background-color: white;
     font-family: 'Lexend Deca', sans-serif;
+}
+
+.box-1 {
+  background-color: hsl(204, 43%, 93%);
+}
+
+.box-2 {
+  background-color: hsl(179, 42%, 50%);
+}
+
+.box-3{
+  background-color: hsl(179, 31%, 55%); /*Experiment - maybe just need to add a ?*/
+}
+
+.box-1 h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+.test{
+color: hsl(179, 62%, 43%);
+color: hsl(179, 31%, 55%); /*Experiment - maybe just need to add a ?*/
+color: hsl(71, 73%, 54%);
+color: hsl(204, 43%, 93%);
+color: hsl(218, 22%, 67%);
 }
