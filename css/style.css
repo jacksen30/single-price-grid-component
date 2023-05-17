@@ -113,14 +113,34 @@ main {
   color: white;
 }
 
+/* CTA-btn requires further work */
+.CTA-btn {
+  display: block;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 7px;
+}
+
 .box-3{
   background-color: hsl(179, 31%, 55%); /*Experiment - maybe just need to add a ?*/
   color: white;
 }
 
+.box-1 h2 {
+  color: hsl(179, 62%, 43%);
+}
 .box-1 h3 {
   color: hsl(71, 73%, 54%);
 }
+
+.box-3 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 
 .test{
 color: hsl(179, 62%, 43%);
