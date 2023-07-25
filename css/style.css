@@ -85,8 +85,15 @@ The element will be visually hidden but will still be read by screen reader tech
 /* MY CUSTOM CSS RULES BELOW */
 
 body {
-    background-color: hsl(204, 43%, 93%);
-    font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+	place-content : center;
+  margin: auto;
 }
 
 .grid-container {
@@ -169,14 +176,31 @@ color: hsl(218, 22%, 67%);
 color: #FFF;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 600px) {
   
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.9fr 1fr;
     grid-template-areas: "box-1 box-1"
                          "box-2 box-3";
     margin: 1.5rem;
+    margin:auto;
+    max-width: 750px;
   }  
+
+  .box {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
+
+  .box-1 p {
+    width: 80%;
+  }
+
+  .box-1 {
+    padding-bottom: 0px;
+    
+  }
 }
